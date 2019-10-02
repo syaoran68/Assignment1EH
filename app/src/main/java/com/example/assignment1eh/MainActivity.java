@@ -3,6 +3,7 @@ package com.example.assignment1eh;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.ViewGroup;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         regular.setLayoutParams(rParams);
         regular.setOrientation(GridLayout.VERTICAL);
         //regular.setBackgroundColor(Color.parseColor("#787878"));
-        regular.setColumnCount(12);
+        regular.setColumnCount(13);
         regular.setRowCount(12);
 
         //bar1
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         tv1.setBackgroundColor(Color.BLACK);
         tv1.setTextColor(Color.WHITE);
         GridLayout.Spec row1_spec = GridLayout.spec(0,1,1f);
-        GridLayout.Spec col1_spec = GridLayout.spec(1,11,1f);
+        GridLayout.Spec col1_spec = GridLayout.spec(1,12,1f);
         GridLayout.LayoutParams tParams = new GridLayout.LayoutParams(row1_spec, col1_spec);
         tv1.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
         tParams.width = 1015;
@@ -61,28 +62,16 @@ public class MainActivity extends AppCompatActivity {
         tv1.setLayoutParams(tParams);
         regular.addView(tv1);
 
-//        //Properties (not sure why this is here? maybe duplicate)
-//        TextView tv2 = new TextView(this);
-//        tv2.setText("Rules void hello1(int hour)");
-//        tv2.setBackgroundColor(Color.BLACK);
-//        tv2.setTextColor(Color.WHITE);
-//        GridLayout.Spec row2_spec = GridLayout.spec(1,2,1f);
-//        GridLayout.Spec col2_spec = GridLayout.spec(1,2,1f);
-//        GridLayout.LayoutParams gParams = new GridLayout.LayoutParams(row2_spec, col2_spec);
-//        tv2.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
-//        gParams.width = 1015;
-//        //cParams.setMargins(10,10,10,10);
-//        tv2.setLayoutParams(gParams);
-//        regular.addView(tv2);
-
         //Properties
         TextView tv3 = new TextView(this);
         tv3.setText("Properties");
+        tv3.setBackgroundColor(Color.BLACK);
+        tv3.setTextColor(Color.WHITE);
         GridLayout.Spec row3_spec = GridLayout.spec(1,2,1f);
         GridLayout.Spec col3_spec = GridLayout.spec(1,2,1f);
         GridLayout.LayoutParams pParams = new GridLayout.LayoutParams(row3_spec, col3_spec);
         tv3.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
-        pParams.width = 250;
+        //pParams.width = 100;
         //cParams.setMargins(10,10,10,10);
         tv3.setLayoutParams(pParams);
         regular.addView(tv3);
@@ -139,15 +128,61 @@ public class MainActivity extends AppCompatActivity {
         TextView tv8 = new TextView(this);
         tv8.setText("Rule");
         tv8.setBackgroundColor(Color.parseColor("#66CCFF"));
-
-        GridLayout.Spec row8_spec = GridLayout.spec(3,1,1f);
+        Typeface r1boldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        tv8.setTypeface(r1boldTypeFace);
+        GridLayout.Spec row8_spec = GridLayout.spec(3,2,1f);
         GridLayout.Spec col8_spec = GridLayout.spec(2,1,1f);
         GridLayout.LayoutParams r2Params = new GridLayout.LayoutParams(row8_spec, col8_spec);
-        tv8.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+        tv8.setGravity(Gravity.CENTER_HORIZONTAL);
         r2Params.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv8.setLayoutParams(r2Params);
         regular.addView(tv8);
+
+        //C1
+        TextView tv9 = new TextView(this);
+        tv9.setText("C1");
+        Typeface c1boldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        tv9.setTypeface(c1boldTypeFace);
+        tv9.setBackgroundColor(Color.parseColor("#66CCFF"));
+        GridLayout.Spec row9_spec = GridLayout.spec(3,1,1f);
+        GridLayout.Spec col9_spec = GridLayout.spec(3,1,1f);
+        GridLayout.LayoutParams c2Params = new GridLayout.LayoutParams(row9_spec, col9_spec);
+        tv9.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+        c2Params.width = 300;
+        //cParams.setMargins(10,10,10,10);
+        tv9.setLayoutParams(c2Params);
+        regular.addView(tv9);
+
+        //A1
+        TextView tv10 = new TextView(this);
+        tv10.setText("A1");
+        Typeface a1boldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        tv10.setTypeface(a1boldTypeFace);
+        tv10.setBackgroundColor(Color.parseColor("#66CCFF"));
+        GridLayout.Spec row10_spec = GridLayout.spec(3,1,1f);
+        GridLayout.Spec col10_spec = GridLayout.spec(5,1,1f);
+        GridLayout.LayoutParams a1Params = new GridLayout.LayoutParams(row10_spec, col10_spec);
+        tv10.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+        a1Params.width = 300;
+        //cParams.setMargins(10,10,10,10);
+        tv10.setLayoutParams(a1Params);
+        regular.addView(tv10);
+
+        //Blank
+        TextView tv11 = new TextView(this);
+        tv11.setText("B1");
+        Typeface b1boldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        tv11.setTypeface(a1boldTypeFace);
+        tv11.setBackgroundColor(Color.parseColor("#66CCFF"));
+        GridLayout.Spec row11_spec = GridLayout.spec(4,1,1f);
+        GridLayout.Spec col11_spec = GridLayout.spec(3,2,1f);
+        GridLayout.LayoutParams b1Params = new GridLayout.LayoutParams(row11_spec, col11_spec);
+        tv11.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+        b1Params.width = 300;
+        //cParams.setMargins(10,10,10,10);
+        tv11.setLayoutParams(b1Params);
+        regular.addView(tv11);
 //
 //        //bar2
 //        TextView tv1 = new TextView(this);

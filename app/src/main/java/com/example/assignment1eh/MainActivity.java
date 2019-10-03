@@ -364,6 +364,186 @@ public class MainActivity extends AppCompatActivity {
         tv21.setLayoutParams(zeroParams);
         regular.addView(tv21);
 
+        //11
+        TextView tv22 = new TextView(this);
+        tv22.setText("11");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv22.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row21_spec = GridLayout.spec(7);
+        GridLayout.Spec col21_spec = GridLayout.spec(4,1);
+        GridLayout.LayoutParams elevenParams = new GridLayout.LayoutParams(row21_spec, col21_spec);
+        tv22.setGravity(Gravity.CENTER_VERTICAL);
+        elevenParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv22.setLayoutParams(elevenParams);
+        regular.addView(tv22);
+
+        //Good Morning
+        TextView tv23 = new TextView(this);
+        tv23.setText("Good Morning");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv23.setBackgroundColor(Color.parseColor("#FF7F00"));
+        GridLayout.Spec row23_spec = GridLayout.spec(7);
+        GridLayout.Spec col23_spec = GridLayout.spec(5);
+        GridLayout.LayoutParams goodMParams = new GridLayout.LayoutParams(row23_spec, col23_spec);
+        tv23.setGravity(Gravity.CENTER_VERTICAL);
+        goodMParams.width = 700;
+        //cParams.setMargins(10,10,10,10);
+        tv23.setLayoutParams(goodMParams);
+        regular.addView(tv23);
+
+        //Line 8
+        //12
+        TextView tv24 = new TextView(this);
+        tv24.setText("12");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv24.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row24_spec = GridLayout.spec(8);
+        GridLayout.Spec col24_spec = GridLayout.spec(3,1);
+        GridLayout.LayoutParams twelveParams = new GridLayout.LayoutParams(row24_spec, col24_spec);
+        tv24.setGravity(Gravity.CENTER_VERTICAL);
+        twelveParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv24.setLayoutParams(twelveParams);
+        regular.addView(tv24);
+
+        //17
+        TextView tv25 = new TextView(this);
+        tv25.setText("17");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv25.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row25_spec = GridLayout.spec(8);
+        GridLayout.Spec col25_spec = GridLayout.spec(4,1);
+        GridLayout.LayoutParams seventeenParams = new GridLayout.LayoutParams(row25_spec, col25_spec);
+        tv25.setGravity(Gravity.CENTER_VERTICAL);
+        seventeenParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv25.setLayoutParams(seventeenParams);
+        regular.addView(tv25);
+
+        //Good Afternoon
+        TextView tv26 = new TextView(this);
+        tv26.setText("Good Afternoon");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv26.setBackgroundColor(Color.parseColor("#FF7F00"));
+        GridLayout.Spec row26_spec = GridLayout.spec(8);
+        GridLayout.Spec col26_spec = GridLayout.spec(5);
+        GridLayout.LayoutParams goodAParams = new GridLayout.LayoutParams(row26_spec, col26_spec);
+        tv26.setGravity(Gravity.CENTER_VERTICAL);
+        goodAParams.width = 700;
+        //cParams.setMargins(10,10,10,10);
+        tv26.setLayoutParams(goodAParams);
+        regular.addView(tv26);
+
+        //Line 9
+        //18
+        TextView tv27 = new TextView(this);
+        tv27.setText("18");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv27.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row27_spec = GridLayout.spec(9);
+        GridLayout.Spec col27_spec = GridLayout.spec(3,1);
+        GridLayout.LayoutParams eighteenParams = new GridLayout.LayoutParams(row27_spec, col27_spec);
+        tv27.setGravity(Gravity.CENTER_VERTICAL);
+        eighteenParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv27.setLayoutParams(eighteenParams);
+        regular.addView(tv27);
+
+        //21
+        TextView tv28 = new TextView(this);
+        tv28.setText("21");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv28.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row28_spec = GridLayout.spec(9);
+        GridLayout.Spec col28_spec = GridLayout.spec(4,1);
+        GridLayout.LayoutParams twentyOneParams = new GridLayout.LayoutParams(row28_spec, col28_spec);
+        tv28.setGravity(Gravity.CENTER_VERTICAL);
+        twentyOneParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv28.setLayoutParams(twentyOneParams);
+        regular.addView(tv28);
+
+        //Good Evening
+        TextView tv29 = new TextView(this);
+        tv29.setText("Good Evening");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv29.setBackgroundColor(Color.parseColor("#FF7F00"));
+        GridLayout.Spec row29_spec = GridLayout.spec(9);
+        GridLayout.Spec col29_spec = GridLayout.spec(5);
+        GridLayout.LayoutParams goodEParams = new GridLayout.LayoutParams(row29_spec, col29_spec);
+        tv29.setGravity(Gravity.CENTER_VERTICAL);
+        goodEParams.width = 700;
+        //cParams.setMargins(10,10,10,10);
+        tv29.setLayoutParams(goodEParams);
+        regular.addView(tv29);
+
+        //Line 10
+        //22
+        TextView tv30 = new TextView(this);
+        tv30.setText("22");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv30.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row30_spec = GridLayout.spec(10);
+        GridLayout.Spec col30_spec = GridLayout.spec(3,1);
+        GridLayout.LayoutParams twentytwoParams = new GridLayout.LayoutParams(row30_spec, col30_spec);
+        tv30.setGravity(Gravity.CENTER_VERTICAL);
+        twentytwoParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv30.setLayoutParams(twentytwoParams);
+        regular.addView(tv30);
+
+        //23
+        TextView tv31 = new TextView(this);
+        tv31.setText("23");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv31.setBackgroundColor(Color.YELLOW);
+        GridLayout.Spec row31_spec = GridLayout.spec(10);
+        GridLayout.Spec col31_spec = GridLayout.spec(4,1);
+        GridLayout.LayoutParams twentythreeParams = new GridLayout.LayoutParams(row31_spec, col31_spec);
+        tv31.setGravity(Gravity.CENTER_VERTICAL);
+        twentythreeParams.width = 250;
+        //cParams.setMargins(10,10,10,10);
+        tv31.setLayoutParams(twentythreeParams);
+        regular.addView(tv31);
+
+        //Good Night
+        TextView tv32 = new TextView(this);
+        tv32.setText("Good Night");
+        //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
+        //tv21.setTypeface(fromBoldTypeFace);
+
+        tv32.setBackgroundColor(Color.parseColor("#FF7F00"));
+        GridLayout.Spec row32_spec = GridLayout.spec(10);
+        GridLayout.Spec col32_spec = GridLayout.spec(5);
+        GridLayout.LayoutParams goodNParams = new GridLayout.LayoutParams(row32_spec, col32_spec);
+        tv32.setGravity(Gravity.CENTER_VERTICAL);
+        goodNParams.width = 700;
+        //cParams.setMargins(10,10,10,10);
+        tv32.setLayoutParams(goodNParams);
+        regular.addView(tv32);
+
+
 
         main.addView(regular);
 

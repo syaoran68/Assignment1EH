@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         regular.setLayoutParams(rParams);
         regular.setOrientation(GridLayout.VERTICAL);
+
         //regular.setBackgroundColor(Color.parseColor("#787878"));
         //regular.setColumnCount(6);
         //regular.setRowCount(12);
@@ -536,11 +537,14 @@ public class MainActivity extends AppCompatActivity {
         tv32.setBackgroundColor(Color.parseColor("#FF7F00"));
         GridLayout.Spec row32_spec = GridLayout.spec(10);
         GridLayout.Spec col32_spec = GridLayout.spec(5);
+
         GridLayout.LayoutParams goodNParams = new GridLayout.LayoutParams(row32_spec, col32_spec);
         tv32.setGravity(Gravity.CENTER_VERTICAL);
         goodNParams.width = 700;
+        goodNParams.setGravity(Gravity.END);
         //cParams.setMargins(10,10,10,10);
         tv32.setLayoutParams(goodNParams);
+
         regular.addView(tv32);
 
 

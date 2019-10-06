@@ -1,15 +1,475 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="1"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="2"
+            android:layout_row="1"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="3"
+            android:layout_row="2"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="4"
+            android:layout_row="3"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="5"
+            android:layout_row="4"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="6"
+            android:layout_row="5"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="7"
+            android:layout_row="6"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="8"
+            android:layout_row="7"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="9"
+            android:layout_row="8"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="10"
+            android:layout_row="9"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:gravity="center"
+            android:text="11"
+            android:layout_row="10"
+            android:layout_column="0"
+            />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_row="0"
+            android:layout_columnSpan="5"
+            android:layout_column="1"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="Rules void hello1(int hour)" />
+
+
+<!--        second column-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="Purchases"
+            />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="3"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:gravity="center"
+            android:background="#00FFFF"
+            android:textStyle="bold"
+            android:text="Rule"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="4"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:gravity="center"
+            android:background="#00FFFF"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="5"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:gravity="center"
+            android:background="#00FFFF"
+            android:text=" "
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="6"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:text="Rule"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="7"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:text="R10"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="8"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:text="R20"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="9"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:text="R30"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="10"
+            android:layout_rowSpan="1"
+            android:layout_column="1"
+            android:text="R40"
+            />
+
+<!--        Third Column-->
+        <TextView
+            android:layout_width="200dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnSpan="2"
+            android:gravity="center"
+            android:text="Name" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_row="2"
+            android:layout_columnSpan="2"
+            android:layout_column="2"
+            android:gravity="center"
+            android:text="Category"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_row="3"
+            android:layout_columnSpan="2"
+            android:layout_column="2"
+            android:gravity="center"
+            android:text="C1"
+            android:textStyle="bold"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_row="4"
+            android:layout_columnSpan="2"
+            android:layout_column="2"
+            android:gravity="center"
+            android:text="min&#60;&#61;hour &#38;&#38; hour&#60;&#61;max"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="5"
+            android:layout_columnSpan="1"
+            android:layout_column="2"
+            android:gravity="center"
+            android:text="int min"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#00FFFF"
+            android:gravity="center"
+            android:text="int max" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:textStyle="bold"
+            android:text="From" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:textStyle="bold"
+            android:text="To" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="11" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="12" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="8"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="17" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="9"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="18" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="9"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="21" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="10"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="22" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_row="10"
+            android:layout_column="3"
+            android:layout_columnSpan="1"
+            android:background="#FFFF33"
+            android:gravity="end"
+            android:text="23" />
+
+<!--        Fifth Column-->
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_columnSpan="1"
+            android:text="Day Hour Classification" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:layout_columnSpan="1"
+            android:text="Day and Time" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:layout_columnSpan="1"
+            android:background="#00FFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text='A1'
+             />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="4"
+            android:layout_columnSpan="1"
+            android:layout_column="4"
+            android:gravity="center"
+            android:text="System.out.printIn(greeting + &quot;, World!&quot;)"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="5"
+            android:layout_columnSpan="1"
+            android:layout_column="4"
+            android:gravity="center"
+            android:text="String Greeting"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="5"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+            android:gravity="center"
+            android:text="String Greeting"
+            android:background="#00FFFF"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="6"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+
+            android:text="Greeting"
+            android:textStyle="bold"
+            android:background="#FFA500"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="7"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+            android:text="Good Morning"
+            android:background="#FFA500"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="8"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+            android:text="Good Afternoon"
+            android:background="#FFA500"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="9"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+            android:text="Good Evening"
+            android:background="#FFA500"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_row="10"
+            android:layout_columnSpan="2"
+            android:layout_column="4"
+            android:text="Good Night"
+            android:background="#FFA500"
+            />
+
+
     </GridLayout>
-    />
+
+
+
+
 </HorizontalScrollView>

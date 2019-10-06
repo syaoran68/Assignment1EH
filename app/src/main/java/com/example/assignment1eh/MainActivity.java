@@ -359,7 +359,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row20_spec = GridLayout.spec(7);
         GridLayout.Spec col20_spec = GridLayout.spec(3,1);
         GridLayout.LayoutParams zeroParams = new GridLayout.LayoutParams(row20_spec, col20_spec);
-        tv21.setGravity(Gravity.CENTER_VERTICAL);
+        tv21.setGravity(Gravity.END);
         zeroParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv21.setLayoutParams(zeroParams);
@@ -375,7 +375,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row21_spec = GridLayout.spec(7);
         GridLayout.Spec col21_spec = GridLayout.spec(4,1);
         GridLayout.LayoutParams elevenParams = new GridLayout.LayoutParams(row21_spec, col21_spec);
-        tv22.setGravity(Gravity.CENTER_VERTICAL);
+        tv22.setGravity(Gravity.END);
         elevenParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv22.setLayoutParams(elevenParams);
@@ -408,7 +408,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row24_spec = GridLayout.spec(8);
         GridLayout.Spec col24_spec = GridLayout.spec(3,1);
         GridLayout.LayoutParams twelveParams = new GridLayout.LayoutParams(row24_spec, col24_spec);
-        tv24.setGravity(Gravity.CENTER_VERTICAL);
+        tv24.setGravity(Gravity.END);
         twelveParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv24.setLayoutParams(twelveParams);
@@ -424,7 +424,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row25_spec = GridLayout.spec(8);
         GridLayout.Spec col25_spec = GridLayout.spec(4,1);
         GridLayout.LayoutParams seventeenParams = new GridLayout.LayoutParams(row25_spec, col25_spec);
-        tv25.setGravity(Gravity.CENTER_VERTICAL);
+        tv25.setGravity(Gravity.END);
         seventeenParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv25.setLayoutParams(seventeenParams);
@@ -457,7 +457,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row27_spec = GridLayout.spec(9);
         GridLayout.Spec col27_spec = GridLayout.spec(3,1);
         GridLayout.LayoutParams eighteenParams = new GridLayout.LayoutParams(row27_spec, col27_spec);
-        tv27.setGravity(Gravity.CENTER_VERTICAL);
+        tv27.setGravity(Gravity.END);
         eighteenParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv27.setLayoutParams(eighteenParams);
@@ -473,7 +473,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row28_spec = GridLayout.spec(9);
         GridLayout.Spec col28_spec = GridLayout.spec(4,1);
         GridLayout.LayoutParams twentyOneParams = new GridLayout.LayoutParams(row28_spec, col28_spec);
-        tv28.setGravity(Gravity.CENTER_VERTICAL);
+        tv28.setGravity(Gravity.END);
         twentyOneParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv28.setLayoutParams(twentyOneParams);
@@ -506,7 +506,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row30_spec = GridLayout.spec(10);
         GridLayout.Spec col30_spec = GridLayout.spec(3,1);
         GridLayout.LayoutParams twentytwoParams = new GridLayout.LayoutParams(row30_spec, col30_spec);
-        tv30.setGravity(Gravity.CENTER_VERTICAL);
+        tv30.setGravity(Gravity.END);
         twentytwoParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv30.setLayoutParams(twentytwoParams);
@@ -522,7 +522,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.Spec row31_spec = GridLayout.spec(10);
         GridLayout.Spec col31_spec = GridLayout.spec(4,1);
         GridLayout.LayoutParams twentythreeParams = new GridLayout.LayoutParams(row31_spec, col31_spec);
-        tv31.setGravity(Gravity.CENTER_VERTICAL);
+        tv31.setGravity(Gravity.END);
         twentythreeParams.width = 250;
         //cParams.setMargins(10,10,10,10);
         tv31.setLayoutParams(twentythreeParams);
@@ -533,7 +533,6 @@ public class MainActivity extends AppCompatActivity {
         tv32.setText("Good Night");
         //Typeface fromBoldTypeFace = Typeface.defaultFromStyle(Typeface.BOLD);
         //tv21.setTypeface(fromBoldTypeFace);
-
         tv32.setBackgroundColor(Color.parseColor("#FF7F00"));
         GridLayout.Spec row32_spec = GridLayout.spec(10);
         GridLayout.Spec col32_spec = GridLayout.spec(5);
@@ -541,19 +540,15 @@ public class MainActivity extends AppCompatActivity {
         GridLayout.LayoutParams goodNParams = new GridLayout.LayoutParams(row32_spec, col32_spec);
         tv32.setGravity(Gravity.CENTER_VERTICAL);
         goodNParams.width = 700;
-        goodNParams.setGravity(Gravity.END);
         //cParams.setMargins(10,10,10,10);
         tv32.setLayoutParams(goodNParams);
-
         regular.addView(tv32);
-
-
 
         main.addView(regular);
 
 
 
-        setContentView(main);
+        setContentView(R.layout.excel_layout);
 
     }
 }
